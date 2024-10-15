@@ -1,0 +1,10 @@
+steps that are followed :
+
+Preprocessing: 
+	The SMS messages are lowercased, punctuation is removed, and stopwords are filtered out.
+Vectorization: 
+	The text is transformed into a bag-of-words using CountVectorizer.
+Model: 
+	A Naive Bayes model (Bernoulli or Multinomial) is trained to classify the SMS messages as spam or not.
+Evaluation: 
+	The performance is measured using accuracy and a classification report.
